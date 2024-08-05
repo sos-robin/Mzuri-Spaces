@@ -1,43 +1,83 @@
-<header>
-    <!-- Header Start -->
-    <div class="header-area header-transparent">
-        <div class="main-header header-sticky">
-            <div class="container-fluid">
-                <div class="menu-wrapper d-flex align-items-center justify-content-between">
-                    <!-- Logo -->
-                    <div class="logo">
-                        <div style="text-align: center;">
-                            <a href="index.html">
-                                <img src="static/img/logo/loder.png" alt="" style="width: 150px; height: auto;">
-                            </a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mzuri Spaces</title>
+    <style>
+        :root {
+            --red: #ffc107; /* Change reddish color to yellow */
+            --hover-color: #ffc107; /* New hover color */
+            --primary: #007bff; /* Primary color if needed */
+            --white: #fff; /* White color */
+        }
+
+        .main-menu ul#navigation > li > a {
+            color: var(--primary); /* Default link color */
+            transition: color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .main-menu ul#navigation > li > a:hover {
+            color: var(--hover-color); /* Updated hover color */
+        }
+
+        .header-btn {
+            background-color: var(--hover-color); /* Updated button background color */
+            color: var(--white); /* Button text color */
+            padding: 10px 20px; /* Adjust padding if necessary */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Rounded corners */
+            text-decoration: none; /* Remove underline */
+            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .header-btn:hover {
+            background-color: var(--primary); /* Button hover background color */
+            color: var(--white); /* Button text color on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Header Start -->
+        <div class="header-area header-transparent">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="menu-wrapper d-flex align-items-center justify-content-between">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <div style="text-align: center;">
+                                <a href="index.html">
+                                    <img src="static/img/logo/loder.png" alt="" style="width: 150px; height: auto;">
+                                </a>
+                            </div>
                         </div>
-                        
-                    </div>
-                    <!-- Main-menu -->
-                    <div class="main-menu f-right d-none d-lg-block">
-                        <nav>
-                            <ul id="navigation">
-                                <li><a href="{% url 'home' %}">Home</a></li>
-                                <li><a href="{% url 'services' %}">Services</a></li>
-                                <li><a href="{% url 'product' %}">Buy Products</a></li>
-                                <li><a href="{% url 'about' %}">About</a></li>
-                                <li><a href="{% url 'work' %}">Portfolio</a></li>
-                    
-                                <li><a href="{% url 'contact' %}">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div>          
-                    <!-- Header-btn -->
-                    <div class="header-btns d-none d-lg-block f-right">
-                        <a href="{% url 'contact' %}" class="btn header-btn">Contact Us</a>
-                    </div>
-                    <!-- Mobile Menu -->
-                    <div class="col-12">
-                        <div class="mobile_menu d-block d-lg-none"></div>
+                        <!-- Main-menu -->
+                        <div class="main-menu f-right d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href="{% url 'home' %}">Home</a></li>
+                                    <li><a href="{% url 'services' %}">Services</a></li>
+                                    <li><a href="{% url 'product' %}">Buy Products</a></li>
+                                    <li><a href="{% url 'about' %}">About</a></li>
+                                    <li><a href="{% url 'work' %}">Portfolio</a></li>
+                                    <li><a href="{% url 'contact' %}">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>          
+                        <!-- Header-btn -->
+                        <div class="header-btns d-none d-lg-block f-right">
+                            <a href="{% url 'contact' %}" class="btn header-btn">Contact Us</a>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Header End -->
-</header>
+        <!-- Header End -->
+    </header>
+</body>
+</html>
