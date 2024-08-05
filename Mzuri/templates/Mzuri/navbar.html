@@ -6,24 +6,23 @@
     <title>Mzuri Spaces</title>
     <style>
         :root {
-            --red: #ffc107; /* Change reddish color to yellow */
-            --hover-color: #ffc107; /* New hover color */
-            --primary: #007bff; /* Primary color if needed */
-            --white: #fff; /* White color */
+            --yellow: #ffc107; /* Yellow color */
+            --primary: #fff; /* White color for primary elements */
+            --white: #fff; /* White color for text */
         }
 
         .main-menu ul#navigation > li > a {
-            color: var(--primary); /* Default link color */
+            color: var(--primary); /* Default link color set to white */
             transition: color 0.3s ease; /* Smooth transition for hover effect */
         }
 
         .main-menu ul#navigation > li > a:hover {
-            color: var(--hover-color); /* Updated hover color */
+            color: var(--yellow); /* Hover color set to yellow */
         }
 
         .header-btn {
-            background-color: var(--hover-color); /* Updated button background color */
-            color: var(--white); /* Button text color */
+            background-color: var(--yellow); /* Button background color set to yellow */
+            color: var(--white); /* Button text color set to white */
             padding: 10px 20px; /* Adjust padding if necessary */
             border: none; /* Remove border */
             border-radius: 5px; /* Rounded corners */
@@ -32,8 +31,8 @@
         }
 
         .header-btn:hover {
-            background-color: var(--primary); /* Button hover background color */
-            color: var(--white); /* Button text color on hover */
+            background-color: var(--primary); /* Button hover background color set to white */
+            color: var(--yellow); /* Button text color on hover set to yellow */
         }
     </style>
 </head>
