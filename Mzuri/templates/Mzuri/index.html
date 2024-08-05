@@ -1,21 +1,23 @@
 {% extends 'Mzuri/base.html' %}
 
+
+
 {% block content %}
 <body class="body-bg">
 
 {% include "Mzuri/navbar.html" %}
 <main>
-    <!--? Preloader Start -->
-    <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
-            <div class="preloader-inner position-relative">
-                <div class="preloader-circle"></div>
-                <div class="preloader-img pere-text">
-                    <img src="static/img/logo/loder.jpg" alt="">
-                </div>
+           <!--? Preloader Start -->
+<div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+            <div class="preloader-circle"></div>
+            <div class="preloader-img pere-text">
+                <img src="static/img/logo/loder.jpg" alt="">
             </div>
         </div>
     </div>
+</div>
     <!--? slider Area Start-->
     <div class="slider-area">
         <div class="slider-active dot-style">
@@ -24,7 +26,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-6 col-lg-6">
-                            <div class="hero__caption" style="color: #ffff00;"> <!-- Applied yellow color inline -->
+                            <div class="hero__caption">
                                 <span data-animation="fadeInLeft" data-delay=".4s">Welcome to Mzuri Spaces</span>
                                 <h1 data-animation="fadeInLeft" data-delay=".6s">Nzuri na Tulivu</h1>
                             </div>
@@ -37,7 +39,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-6 col-lg-6">
-                            <div class="hero__caption" style="color: #ffff00;"> <!-- Applied yellow color inline -->
+                            <div class="hero__caption">
                                 <span data-animation="fadeInLeft" data-delay=".4s">Welcome to Mzuri Spaces</span>
                                 <h1 data-animation="fadeInLeft" data-delay=".6s">Modern Interior & Design</h1>
                             </div>
@@ -58,25 +60,25 @@
             <div class="row justify-content-between">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                     <div class="single-info mb-60">
-                        <div class="info-caption" style="color: #ffff00;"> <!-- Applied yellow color inline -->
+                        <div class="info-caption">
                             <h4>Clean and Modern</h4>
-                            <p>For each project we establish relationships with partners who we know will help us.</p>
+                            <p>For each project we establish relationships with partners who we know will help us. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                     <div class="single-info mb-60">
-                        <div class="info-caption" style="color: #ffff00;"> <!-- Applied yellow color inline -->
+                        <div class="info-caption">
                             <h4>Clean and Modern</h4>
-                            <p>For each project we establish relationships with partners who we know will help us.</p>
+                            <p>For each project we establish relationships with partners who we know will help us. </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                     <div class="single-info mb-60">
-                        <div class="info-caption" style="color: #ffff00;"> <!-- Applied yellow color inline -->
+                        <div class="info-caption">
                             <h4>Clean and Modern</h4>
-                            <p>For each project we establish relationships with partners who we know will help us.</p>
+                            <p>For each project we establish relationships with partners who we know will help us. </p>
                         </div>
                     </div>
                 </div>
@@ -90,13 +92,13 @@
         <div class="container">
             <div class="row align-items-end">
                 <div class="col-lg-8">
-                    <!-- Section Tittle -->
-                    <div class="section-tittle profession-details">
-                        <span style="color: #ffff00;">Our Professional Services</span> <!-- Applied yellow color inline -->
-                        <h2 style="color: #ffff00;">We create and populate beautiful spaces</h2> <!-- Applied yellow color inline -->
-                        <p style="color: #ffff00;">Welcome to a realm where elegance meets sophistication. Our interior design redefines luxury and comfort.</p>
-                        <p style="color: #ffff00;">Our design philosophy emphasizes clean lines, minimalist aesthetics, and a seamless blend of form and function. Every element is curated to enhance the ambiance, ensuring each room exudes calm and refinement.</p>
-                    </div>
+                        <!-- Section Tittle -->
+                        <div class="section-tittle profession-details">
+                            <span>Our Professional Services</span>
+                            <h2>We will create modern and first class interior.</h2>
+                            <p>Welcome to a realm where elegance meets sophistication. Our interior design redefines luxury and comfort.</p>
+                            <p>Our design philosophy emphasizes clean lines, minimalist aesthetics, and a seamless blend of form and function. Every element is curated to enhance the ambiance, ensuring each room exudes calm and refinement</p>
+                        </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <a href="about.html" class="btn btn3">Discover More About Us</a>
@@ -105,16 +107,17 @@
         </div>
     </div>
     <!-- Professional Services End -->
+    <!-- our info End -->
     <!--? Services Ara Start -->
     <div class="services-area section-padding3">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-7 col-lg-8 col-md-10">
+                <div class="cl-xl-7 col-lg-8 col-md-10">
                     <!-- Section Tittle -->
                     <div class="section-tittle text-center mb-70">
-                        <span style="color: #ffff00;">Our Professional Services</span> <!-- Applied yellow color inline -->
-                        <h2 style="color: #ffff00;">Best Interior Services</h2> <!-- Applied yellow color inline -->
-                    </div>
+                        <span>Our Professional Services</span>
+                        <h2>Best Interitor Services</h2>
+                    </div> 
                 </div>
             </div>
             <div class="row">
@@ -122,11 +125,11 @@
                     <div class="single-services mb-200">
                         <div class="services-img">
                             <img src="static/img/gallery/services1.png" alt="">
-                        </div>
-                        <div class="services-caption" style="color: #ffff00;"> <!-- Applied yellow color inline -->
-                            <h3><a href="services.html" style="color: #ffff00;">Lighting</a></h3> <!-- Applied yellow color inline -->
-                            <p class="pera1">For each project we establish</p>
-                            <p class="pera2">For each project we establish relationships with partners who we know will help us.</p>
+                            </div>
+                            <div class="services-caption">
+                            <h3><a href="services.html">Lighting</a></h3>
+                            <p class="pera1">For each project we establish </p>
+                            <p class="pera2">For each project we establish relationships with partners who we know will help us. </p>
                         </div>
                     </div>
                 </div>
@@ -134,11 +137,11 @@
                     <div class="single-services mb-200">
                         <div class="services-img">
                             <img src="static/img/gallery/services2.png" alt="">
-                        </div>
-                        <div class="services-caption" style="color: #ffff00;"> <!-- Applied yellow color inline -->
-                            <h3><a href="services.html" style="color: #ffff00;">Interior Design</a></h3> <!-- Applied yellow color inline -->
-                            <p class="pera1">For each project we establish</p>
-                            <p class="pera2">For each project we establish relationships with partners who we know will help us.</p>
+                            </div>
+                            <div class="services-caption">
+                            <h3><a href="services.html">Interior Design</a></h3>
+                            <p class="pera1">For each project we establish </p>
+                            <p class="pera2">For each project we establish relationships with partners who we know will help us. </p>
                         </div>
                     </div>
                 </div>
@@ -146,11 +149,11 @@
                     <div class="single-services mb-200">
                         <div class="services-img">
                             <img src="static/img/gallery/services3.png" alt="">
-                        </div>
-                        <div class="services-caption" style="color: #ffff00;"> <!-- Applied yellow color inline -->
-                            <h3><a href="services.html" style="color: #ffff00;">Office Decoration</a></h3> <!-- Applied yellow color inline -->
-                            <p class="pera1">For each project we establish</p>
-                            <p class="pera2">For each project we establish relationships with partners who we know will help us.</p>
+                            </div>
+                            <div class="services-caption">
+                            <h3><a href="services.html">Office Decoretion</a></h3>
+                            <p class="pera1">For each project we establish </p>
+                            <p class="pera2">For each project we establish relationships with partners who we know will help us. </p>
                         </div>
                     </div>
                 </div>
@@ -158,9 +161,203 @@
         </div>
     </div>
     <!-- Services Ara End -->
+    <!--? Gallery Area Start -->
+    <div class="gallery-area">
+        <div class="container-fluid p-0 fix">
+            <div class="row">
+                <div class="col-xl-6 col-lg-4 col-md-6">
+                    <div class="single-gallery mb-30">
+                        <div class="gallery-img" style="background-image: url(static/img/gallery/gallery1.png);"></div>
+                        <div class="thumb-content-box">
+                            <div class="thumb-content">
+                                <h3><span>Interior</span>Mzuri Spaces</h3>
+                                <a href="work.html"><i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="single-gallery mb-30">
+                        <div class="gallery-img" style="background-image: url(static/img/gallery/gallery2.png);"></div>
+                        <div class="thumb-content-box">
+                            <div class="thumb-content">
+                                <h3><span>Interior</span>Mzuri Spaces</h3>
+                                <a href="work.html"><i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="single-gallery mb-30">
+                            <div class="gallery-img" style="background-image: url(static/img/gallery/gallery3.png);"></div>
+                        <div class="thumb-content-box">
+                            <div class="thumb-content">
+                                <h3><span>Interior</span>Mzuri Spaces</h3>
+                                <a href="work.html"><i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="single-gallery mb-30">
+                        <div class="gallery-img" style="background-image: url(static/img/gallery/gallery4.png);"></div>
+                        <div class="thumb-content-box">
+                            <div class="thumb-content">
+                                <h3><span>Interior</span>Mzuri Spaces</h3>
+                                <a href="work.html"><i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="single-gallery mb-30">
+                        <div class="gallery-img" style="background-image: url(static/img/gallery/gallery5.png);"></div>
+                        <div class="thumb-content-box">
+                            <div class="thumb-content">
+                                <h3><span>Interior</span>Mzuri Spaces</h3>
+                                <a href="work.html"><i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-4 col-md-6">
+                    <div class="single-gallery mb-30">
+                        <div class="gallery-img" style="background-image: url(static/img/gallery/gallery6.png);"></div>
+                        <div class="thumb-content-box">
+                            <div class="thumb-content">
+                                <h3><span>Interior</span>Mzuri Spaces</h3>
+                                <a href="work.html"><i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery Area End -->
+    <!-- Team Start -->
+    <div class="team-area section-padding30">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="cl-xl-7 col-lg-8 col-md-10">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle text-center mb-70">
+                        <span>Creative derector</span>
+                        <h2>Best Interitor Services</h2>
+                    </div> 
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <!-- single Team -->
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="single-team mb-30">
+                        <div class="team-img">
+                            <img src="static/img/gallery/team2.png" alt="">
+                        </div>
+                        <div class="team-caption">
+                            <h3><a href="#">Emmanuel Koech</a></h3>
+                            <span>Creative Director</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Team End -->
+    <!-- Testimonial Start -->
+    <div class="testimonial-area testimonial-padding">
+        <div class="container">
+            <!-- Testimonial contents -->
+            <div class="row d-flex justify-content-center">
+                <div class="col-xl-8 col-lg-8 col-md-10">
+                    <div class="h1-testimonial-active dot-style">
+                        <!-- Single Testimonial -->
+                        <div class="single-testimonial text-center">
+                            <!-- Testimonial Content -->
+                            <div class="testimonial-caption ">
+                                <div class="testimonial-top-cap">
+                                    <img src="static/img/gallery/testi-logo.png" alt="">
+                                    <p>We provide tailored design solutions: space planning, custom furniture, project management, 3D visualization, and post-occupancy services. Our goal is
+                                        to meet client needs and ensure seamless project execution with 
+                                        precision and expertise.</p>
+                                </div>
+                                <!-- founder -->
+                                <div class="testimonial-founder  ">
+                                    <div class="founder-img">
+                                        <span><strong>Emmanuel Koech</strong>   -    Founder</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Testimonial -->
+                        <div class="single-testimonial text-center">
+                            <!-- Testimonial Content -->
+                            <div class="testimonial-caption ">
+                                <div class="testimonial-top-cap">
+                                    <img src="static/img/gallery/testi-logo.png" alt="">
+                                    <p>We provide tailored design solutions: space planning, custom furniture, project management, 3D visualization, and post-occupancy services. Our goal is
+                                         to meet client needs and ensure seamless project execution with 
+                                         precision and expertise.</p>
+                                </div>
+                                <!-- founder -->
+                                <div class="testimonial-founder  ">
+                                    <div class="founder-img">
+                                        <span><strong>Emmanuel Koech</strong>   - Founder</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+    <!-- Brand Area Start -->
+    <div class="brand-area pt-120 pb-120">
+        <div class="container">
+            <div class="brand-active brand-border pt-50 pb-40">
+                <div class="single-brand">
+                    <img src="static/img/gallery/brand1.png" alt="">
+                </div>
+                <div class="single-brand">
+                    <img src="static/img/gallery/brand2.png" alt="">
+                </div>
+                <div class="single-brand">
+                    <img src="static/img/gallery/brand3.png" alt="">
+                </div>
+                <div class="single-brand">
+                    <img src="static/img/gallery/brand4.png" alt="">
+                </div>
+                <div class="single-brand">
+                    <img src="static/img/gallery/brand2.png" alt="">
+                </div>
+                <div class="single-brand">
+                    <img src="static/img/gallery/brand5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Brand Area End -->
+    <!-- Want To work -->
+    <section class="wantToWork-area w-padding2">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-xl-8 col-lg-8 col-md-8">
+                    <div class="wantToWork-caption wantToWork-caption2">
+                        <h2>Are you Searching For a First-Class Consultant?</h2>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3">
+                    <a href="{% url 'contact' %}" class="btn btn-black f-right">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Want To work End -->
+   
 </main>
-
 {% include "Mzuri/footer.html" %}
-
 </body>
-{% endblock %}
+{%endblock%}
