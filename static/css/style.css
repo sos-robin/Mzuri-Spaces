@@ -501,7 +501,7 @@ hr {
 /* line 235, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_common.scss */
 .owl-carousel:hover .owl-nav div:hover {
   color: #fff;
-  background: #ff3500;
+  background: #FFD700;
 }
 
 /* line 245, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_common.scss */
@@ -647,7 +647,7 @@ hero-btn {
 
 /* line 352, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_common.scss */
 .submit-btn2 {
-  background: #ec5b53;
+  background: #FFD700;
   width: 100%;
   height: 60px;
   padding: 10px 20px;
@@ -4060,7 +4060,7 @@ hero-btn {
 
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_wantTowork.scss */
 .wantToWork-area {
-  background: #ff0000;
+  background: #FFD700;
 }
 
 /* line 4, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_wantTowork.scss */
@@ -4244,7 +4244,7 @@ hero-btn {
 /* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_gallery.scss */
 .gallery-area .single-gallery .thumb-content-box .thumb-content a {
   color: #fff;
-  background: #ff0000;
+  background: #FFD700;
   width: 40px;
   height: 40px;
   display: block;
@@ -4257,7 +4257,7 @@ hero-btn {
 /* line 91, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_gallery.scss */
 .gallery-area .single-gallery .thumb-content-box .thumb-content a:hover {
   background: #fff;
-  color: #ff0000;
+  color: #FFD700;
 }
 
 /* line 101, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_gallery.scss */
@@ -4394,7 +4394,7 @@ hero-btn {
 
 /* line 54, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_testimonial.scss */
 .testimonial-area .testimonial-caption .testimonial-founder .founder-img span {
-  color: #ff0000;
+  color: #FFD700;
   font-size: 18px;
   line-height: 1;
   display: block;
@@ -7114,28 +7114,28 @@ del {
 /* line 265, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .genric-btn.danger {
   color: #fff;
-  background: #f44a40;
+  background: #FFD700;
   border: 1px solid transparent;
 }
 
 /* line 269, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .genric-btn.danger:hover {
-  color: #f44a40;
-  border: 1px solid #f44a40;
+  color: #FFD700;
+  border: 1px solid #FFD700;
   background: #fff;
 }
 
 /* line 275, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .genric-btn.danger-border {
-  color: #f44a40;
-  border: 1px solid #f44a40;
+  color: #FFD700;
+  border: 1px solid #FFD700;
   background: #fff;
 }
 
 /* line 279, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .genric-btn.danger-border:hover {
   color: #fff;
-  background: #f44a40;
+  background: #FFD700;
   border: 1px solid transparent;
 }
 
@@ -7275,12 +7275,12 @@ del {
 
 /* line 382, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-2 {
-  background-color: #e66686;
+  background-color: #FFD700;
 }
 
 /* line 385, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-3 {
-  background-color: #f09359;
+  background-color: #FFD700;
 }
 
 /* line 388, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
@@ -7305,7 +7305,7 @@ del {
 
 /* line 400, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-8 {
-  background-color: #e66686;
+  background-color: #FFD700;
 }
 
 /* line 409, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
@@ -7481,7 +7481,7 @@ del {
 /* line 550, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .single-input-accent:focus {
   outline: none;
-  border: 1px solid #eb6b55;
+  border: 1px solid #FFD700;
 }
 
 /* line 556, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
@@ -7498,7 +7498,7 @@ del {
 /* line 564, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .single-input-secondary:focus {
   outline: none;
-  border: 1px solid #f09359;
+  border: 1px solid #FFD700;
 }
 
 /* line 570, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
