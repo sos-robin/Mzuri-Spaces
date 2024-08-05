@@ -22,3 +22,7 @@ def Services(request):
 def Portfolio(request):
     
     return render(request,'Mzuri/work.html')
+
+def Product(request):
+    
+    return render(request,'Mzuri/shop.html')
