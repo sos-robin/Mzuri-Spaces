@@ -75,17 +75,15 @@ WSGI_APPLICATION = 'mzuri_spaces.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mzuri',
-        'USER': 'postgres',
-        'PASSWORD': 'jj',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
+import dj_database_url
 
+# Get the DATABASE_URL environment variable
+DATABASE_URL = os.getenv('DATABASE_URL')
+
+# Configure Django's DATABASES setting
+DATABASES = {
+    'default': dj_database_url.config(default=DATABASE_URL)
+}
 
 #{
  #   'default': {
