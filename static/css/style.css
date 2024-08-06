@@ -3940,7 +3940,7 @@ hero-btn {
 /* line 17, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_services_section.scss */
 .services-area .single-services .services-caption h3 {
   margin-bottom: 15px;
-  line-height: 13px;
+  line-height: 18px;
   font-family: "Barlow", sans-serif;
   position: relative;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -3986,7 +3986,7 @@ hero-btn {
   color: #2c234d;
   font-size: 16px;
   margin: 0;
-  padding: 0;
+  padding: 2;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
   -ms-transition: all 0.4s ease-out 0s;
