@@ -61,7 +61,7 @@
 
 /* line 87, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_color.scss */
 .theme-bg {
-  background: #FFD700;
+  background: #939434;
 }
 
 /* line 90, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_color.scss */
@@ -87,7 +87,7 @@
 
 /* line 105, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_color.scss */
 .theme-color {
-  color: #FFD700;
+  color: #939434;
 }
 
 /*------------------- Responsive --------------------------*/
@@ -98,26 +98,26 @@
 /* line 57, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_variables.scss */
 .boxed-btn {
   background: #fff;
-  color: #FFD700 !important;
+  color: #939434 !important;
   display: inline-block;
   padding: 18px 44px;
   font-family: "Barlow Condensed", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #FFD700;
+  border: 1px solid #939434;
   letter-spacing: 3px;
   text-align: center;
-  color: #FFD700;
+  color: #939434;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 /* line 74, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_variables.scss */
 .boxed-btn:hover {
-  background: #FFD700;
+  background: #939434;
   color: #fff !important;
-  border: 1px solid #FFD700;
+  border: 1px solid #939434;
 }
 
 /* line 79, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_variables.scss */
@@ -501,12 +501,12 @@ hr {
 /* line 235, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_common.scss */
 .owl-carousel:hover .owl-nav div:hover {
   color: #fff;
-  background: #FFD700;
+  background: #939434;
 }
 
 /* line 245, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_common.scss */
 .btn {
-  background: #FFD700;
+  background: #939434;
   padding: 27px 44px;
   text-transform: uppercase;
   font-family: "Barlow Condensed", sans-serif;
@@ -608,7 +608,7 @@ a:hover {
 /* line 322, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_common.scss */
 .submit-btn {
   width: 100%;
-  background: #FFD700;
+  background: #939434;
   padding: 19px 44px;
   color: #fff;
   cursor: pointer;
@@ -647,7 +647,7 @@ hero-btn {
 
 /* line 352, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_common.scss */
 .submit-btn2 {
-  background: #FFD700;
+  background: #939434;
   width: 100%;
   height: 60px;
   padding: 10px 20px;
@@ -697,7 +697,7 @@ hero-btn {
   top: 0;
   width: 101%;
   height: 101%;
-  background: #FFD700;
+  background: #939434;
   z-index: -1;
   transition: transform 0.5s;
   transition-timing-function: ease;
@@ -722,7 +722,7 @@ hero-btn {
 /* scrollUp */
 /* line 423, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_common.scss */
 #scrollUp, #back-top {
-  background: #FFD700;
+  background: #939434;
   height: 50px;
   width: 50px;
   right: 31px;
@@ -2496,7 +2496,7 @@ hero-btn {
   position: relative;
   border-style: solid;
   border-width: 1px;
-  border-top-color: #FFD700;
+  border-top-color: #939434;
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -3127,7 +3127,7 @@ hero-btn {
 
 /* line 87, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_color.scss */
 .theme-bg {
-  background: #FFD700;
+  background: #939434;
 }
 
 /* line 90, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_color.scss */
@@ -3153,7 +3153,7 @@ hero-btn {
 
 /* line 105, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_color.scss */
 .theme-color {
-  color: #FFD700;
+  color: #939434;
 }
 
 /* line 6, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_headerMenu.scss */
@@ -3269,7 +3269,7 @@ hero-btn {
 
 /* line 71, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_headerMenu.scss */
 .header-area .menu-wrapper .main-menu ul li:hover > a {
-  color: #FFD700;
+  color: #939434;
 }
 
 /* line 75, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_headerMenu.scss */
@@ -3312,7 +3312,7 @@ hero-btn {
 
 /* line 100, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_headerMenu.scss */
 .header-area .menu-wrapper .main-menu ul ul.submenu > li > a:hover {
-  color: #FFD700;
+  color: #939434;
   background: none;
   padding-left: 13px !important;
 }
@@ -3369,7 +3369,7 @@ hero-btn {
 
 /* line 163, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_headerMenu.scss */
 .mobile_menu .slicknav_menu .slicknav_btn .slicknav_icon-bar {
-  background-color: #FFD700 !important;
+  background-color: #939434 !important;
 }
 
 /* line 167, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_headerMenu.scss */
@@ -3381,7 +3381,7 @@ hero-btn {
 /* line 170, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_headerMenu.scss */
 .mobile_menu .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #FFD700;
+  color: #939434;
 }
 
 /* line 174, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_headerMenu.scss */
@@ -3571,7 +3571,7 @@ hero-btn {
 
 /* line 105, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_h1-hero.scss */
 .slider-area .hero__caption h1 span {
-  color: #FFD700;
+  color: #939434;
 }
 
 /* line 113, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_h1-hero.scss */
@@ -3706,7 +3706,7 @@ hero-btn {
 
 /* line 211, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_h1-hero.scss */
 .video-icon a {
-  background: #FFD700;
+  background: #939434;
   color: #fff;
   width: 80px;
   height: 80px;
@@ -3751,7 +3751,7 @@ hero-btn {
   bottom: -2px;
   right: -2px;
   border-radius: inherit;
-  border: 1px solid #FFD700;
+  border: 1px solid #939434;
   -webkit-animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
   animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
 }
@@ -3780,7 +3780,7 @@ hero-btn {
 /* line 266, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_h1-hero.scss */
 .video-icon a.btn-icon:hover {
   background: #fff;
-  color: #FFD700;
+  color: #939434;
 }
 
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_our-info.scss */
@@ -3960,7 +3960,7 @@ hero-btn {
 
 /* line 28, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_services_section.scss */
 .services-area .single-services .services-caption h3 a:hover {
-  color: #FFD700;
+  color: #939434;
 }
 
 /* line 32, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_services_section.scss */
@@ -3973,7 +3973,7 @@ hero-btn {
   left: -46px;
   top: 50%;
   transform: translateY(-50%);
-  background: #FFD700;
+  background: #939434;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
   -ms-transition: all 0.4s ease-out 0s;
@@ -4019,7 +4019,7 @@ hero-btn {
 
 /* line 68, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_services_section.scss */
 .services-area .single-services:hover .services-caption {
-  background: #FFD700;
+  background: #939434;
   transform: translateY(-40px);
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
@@ -4060,7 +4060,7 @@ hero-btn {
 
 /* line 1, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_wantTowork.scss */
 .wantToWork-area {
-  background: #FFD700;
+  background: #939434;
 }
 
 /* line 4, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_wantTowork.scss */
@@ -4244,7 +4244,7 @@ hero-btn {
 /* line 81, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_gallery.scss */
 .gallery-area .single-gallery .thumb-content-box .thumb-content a {
   color: #fff;
-  background: #FFD700;
+  background: #939434;
   width: 40px;
   height: 40px;
   display: block;
@@ -4257,7 +4257,7 @@ hero-btn {
 /* line 91, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_gallery.scss */
 .gallery-area .single-gallery .thumb-content-box .thumb-content a:hover {
   background: #fff;
-  color: #FFD700;
+  color: #939434;
 }
 
 /* line 101, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_gallery.scss */
@@ -4300,7 +4300,7 @@ hero-btn {
   left: -47px;
   top: 50%;
   transform: translateY(-50%);
-  background: #FFD700;
+  background: #939434;
 }
 
 /* line 33, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_team.scss */
@@ -4394,7 +4394,7 @@ hero-btn {
 
 /* line 54, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_testimonial.scss */
 .testimonial-area .testimonial-caption .testimonial-founder .founder-img span {
-  color: #FFD700;
+  color: #939434;
   font-size: 18px;
   line-height: 1;
   display: block;
@@ -4465,7 +4465,7 @@ hero-btn {
   color: #fff;
   opacity: 0;
   visibility: hidden;
-  background: #FFD700;
+  background: #939434;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -4552,7 +4552,7 @@ hero-btn {
 
 /* line 10, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_footer.scss */
 .footer-area .footer-top .single-footer-caption .footer-number h4 {
-  color: #FFD700;
+  color: #939434;
   font-size: 30px;
   font-weight: 500;
   text-transform: capitalize;
@@ -4628,7 +4628,7 @@ hero-btn {
 
 /* line 59, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_footer.scss */
 .footer-area .footer-top .single-footer-caption .footer-tittle ul li a:hover {
-  color: #FFD700;
+  color: #939434;
   padding-left: 5px;
 }
 
@@ -4639,7 +4639,7 @@ hero-btn {
 
 /* line 69, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_footer.scss */
 .footer-area .footer-top .single-footer-caption .footer-cap span {
-  color: #FFD700;
+  color: #939434;
   font-size: 16px;
   font-weight: 300;
   margin-bottom: 10px;
@@ -4669,12 +4669,12 @@ hero-btn {
 
 /* line 95, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_footer.scss */
 .footer-area .footer-bottom .footer-copy-right p i {
-  color: #FFD700;
+  color: #939434;
 }
 
 /* line 98, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_footer.scss */
 .footer-area .footer-bottom .footer-copy-right p a {
-  color: #FFD700;
+  color: #939434;
 }
 
 /* line 110, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_footer.scss */
@@ -4776,7 +4776,7 @@ hero-btn {
   content: "";
   width: 75px;
   height: 3px;
-  background: #FFD700;
+  background: #939434;
   left: 0;
   top: 52%;
   transform: translateY(-50%);
@@ -4901,7 +4901,7 @@ hero-btn {
 
 /* line 63, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_blog_page.scss */
 .home-blog-area .home-blog-single .blog-img-cap .blog-cap h3 a:hover {
-  color: #FFD700;
+  color: #939434;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4981,7 +4981,7 @@ hero-btn {
 
 /* line 129, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_blog_page.scss */
 .blog_area a:hover, .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #FFD700 0%, #FFD700 99%);
+  background: -webkit-linear-gradient(131deg, #939434 0%, #939434 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -5509,7 +5509,7 @@ hero-btn {
 
 /* line 659, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_blog_page.scss */
 .blog_details a:hover {
-  color: #FFD700;
+  color: #939434;
 }
 
 /* line 664, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_blog_page.scss */
@@ -5577,7 +5577,7 @@ hero-btn {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #FFD700;
+  background-color: #939434;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -5672,7 +5672,7 @@ hero-btn {
 
 /* line 809, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_blog_page.scss */
 .blog_right_sidebar .search_widget .input-group button {
-  background: #FFD700;
+  background: #939434;
   border-left: 0;
   border: 1px solid #f0e9ff;
   padding: 4px 15px;
@@ -5810,7 +5810,7 @@ hero-btn {
 
 /* line 960, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_blog_page.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #FFD700;
+  background: #939434;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -6058,7 +6058,7 @@ hero-btn {
 
 /* line 1326, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_blog_page.scss */
 .single-post-area .blog-author a:hover {
-  color: #FFD700;
+  color: #939434;
 }
 
 /* line 1331, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_blog_page.scss */
@@ -7086,56 +7086,56 @@ del {
 /* line 245, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .genric-btn.warning {
   color: #fff;
-  background: #f4e700;
+  background: #939434;
   border: 1px solid transparent;
 }
 
 /* line 249, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .genric-btn.warning:hover {
-  color: #f4e700;
-  border: 1px solid #f4e700;
+  color: #939434;
+  border: 1px solid #939434;
   background: #fff;
 }
 
 /* line 255, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .genric-btn.warning-border {
-  color: #f4e700;
-  border: 1px solid #f4e700;
+  color: #939434;
+  border: 1px solid #939434;
   background: #fff;
 }
 
 /* line 259, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .genric-btn.warning-border:hover {
   color: #fff;
-  background: #f4e700;
+  background: #939434;
   border: 1px solid transparent;
 }
 
 /* line 265, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .genric-btn.danger {
   color: #fff;
-  background: #FFD700;
+  background: #939434;
   border: 1px solid transparent;
 }
 
 /* line 269, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .genric-btn.danger:hover {
-  color: #FFD700;
-  border: 1px solid #FFD700;
+  color: #939434;
+  border: 1px solid #939434;
   background: #fff;
 }
 
 /* line 275, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .genric-btn.danger-border {
-  color: #FFD700;
-  border: 1px solid #FFD700;
+  color: #939434;
+  border: 1px solid #939434;
   background: #fff;
 }
 
 /* line 279, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .genric-btn.danger-border:hover {
   color: #fff;
-  background: #FFD700;
+  background: #939434;
   border: 1px solid transparent;
 }
 
@@ -7275,12 +7275,12 @@ del {
 
 /* line 382, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-2 {
-  background-color: #FFD700;
+  background-color: #939434;
 }
 
 /* line 385, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-3 {
-  background-color: #FFD700;
+  background-color: #939434;
 }
 
 /* line 388, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
@@ -7305,7 +7305,7 @@ del {
 
 /* line 400, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar.color-8 {
-  background-color: #FFD700;
+  background-color: #939434;
 }
 
 /* line 409, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
@@ -7481,7 +7481,7 @@ del {
 /* line 550, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .single-input-accent:focus {
   outline: none;
-  border: 1px solid #FFD700;
+  border: 1px solid #939434;
 }
 
 /* line 556, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
@@ -7498,7 +7498,7 @@ del {
 /* line 564, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
 .single-input-secondary:focus {
   outline: none;
-  border: 1px solid #FFD700;
+  border: 1px solid #939434;
 }
 
 /* line 570, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
