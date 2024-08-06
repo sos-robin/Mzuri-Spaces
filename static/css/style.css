@@ -1754,6 +1754,44 @@ hero-btn {
 .pt-175 {
   padding-top: 175px;
 }
+.product-item {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none; /* Remove underline from link */
+  color: inherit; /* Inherit color from parent */
+}
+
+.product-thumbnail {
+  width: 100%; /* Ensure image fills the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.product-details {
+  padding: 10px; /* Space around text */
+}
+
+.product-title {
+  font-size: 1.25rem; /* Adjust as needed */
+  margin: 0;
+}
+
+.product-price {
+  font-size: 1.1rem; /* Adjust as needed */
+  color: #333; /* Adjust color as needed */
+  margin: 0.5rem 0;
+}
+
+.product-description {
+  font-size: 0.875rem; /* Adjust font size as needed */
+  color: #666; /* Adjust color as needed */
+  margin: 0;
+}
+
+.icon-cross {
+  position: absolute; /* Adjust positioning as needed */
+  top: 10px; /* Adjust positioning */
+  right: 10px; /* Adjust positioning */
+}
 
 /* line 497, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_common.scss */
 .pt-180 {

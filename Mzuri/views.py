@@ -1,5 +1,5 @@
 from django.shortcuts import render
-
+from .models import Buy_product
 # Create your views here.
 
 def home(request):
@@ -24,5 +24,5 @@ def Portfolio(request):
     return render(request,'Mzuri/work.html')
 
 def Product(request):
-    
-    return render(request,'Mzuri/shop.html')
+    products = Buy_product.objects.all()
+    return render(request, 'Mzuri/shop.html', {'products': products})

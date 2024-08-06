@@ -27,6 +27,7 @@ DEBUG = False
 
 ALLOWED_HOSTS =  ['.vercel.app', 'localhost', '127.0.0.1']
 
+USE_L10N = True
 
 # Application definition
 
@@ -76,10 +77,22 @@ WSGI_APPLICATION = 'mzuri_spaces.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mzuri',
+        'USER': 'postgres',
+        'PASSWORD': 'jj',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
+
+
+#{
+ #   'default': {
+ #       'ENGINE': 'django.db.backends.sqlite3',
+ #       'NAME': BASE_DIR / 'db.sqlite3',
+  #  }
+#}
 
 
 # Password validation

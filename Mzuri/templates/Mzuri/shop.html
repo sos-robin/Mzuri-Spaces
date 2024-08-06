@@ -1,6 +1,80 @@
 {% extends 'Mzuri/base.html' %}
 {% load static %}
 {% block content %}
+<head><style> 
+    .product-item {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        border-radius: 0.5rem;
+        background-color: #fff;
+        height: 100%;
+        padding: 1rem;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        overflow: hidden;
+    }
+    
+    .product-thumbnail {
+        width: 100%;
+        height: 200px; /* Fixed height for uniformity */
+        object-fit: cover;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .product-details {
+        flex-grow: 1;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .product-title {
+        margin: 0.5rem 0;
+        color: #333; /* Dark Gray */
+        font-size: 1.2rem;
+    }
+    
+    .product-price {
+        display: block;
+        margin: 0.5rem 0;
+        color: #939434; /* Dark Green */
+        font-size: 1.1rem;
+    }
+    
+    .product-description {
+        margin: 0.5rem 0;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+        line-height: 1.4;
+        max-height: 3.6em;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        color: #666; /* Medium Gray */
+
+    }
+    
+    .btn-custom-action {
+        background-color:#939434 ; /* Primary color */
+        color: #fff;
+        border-radius: 0.25rem;
+        padding: 0.5rem 1rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .btn-custom-action:hover {
+        background-color: #ffc107; /* Warning color */
+        color: #000; /* Optional: Change text color for better visibility */
+    }
+    
+    </style>
+</head>
 <body>
     {% include "Mzuri/navbar.html" %}
     <!-- Preloader Start -->
@@ -31,127 +105,34 @@
     </div> 
 </div>
 <!-- Hero End -->
-
 <div class="untree_co-section product-section before-footer-section">
     <div class="container">
         <div class="row">
-
-            <!-- Start Column 1 -->
+            {% for product in products %}
             <div class="col-12 col-md-4 col-lg-3 mb-5">
-                <a class="product-item" href="#">
-                    <img src="{% static 'img/product-3.png' %}" class="img-fluid product-thumbnail">
-                    <h3 class="product-title">Nordic Chair</h3>
-                    <strong class="product-price">$50.00</strong>
-
-                    <span class="icon-cross">
-                        <i class="fas fa-shopping-bag"></i>
-                    </span>
-                </a>
-            </div> 
-            <!-- End Column 1 -->
-                
-            <!-- Start Column 2 -->
-            <div class="col-12 col-md-4 col-lg-3 mb-5">
-                <a class="product-item" href="#">
-                    <img src="{% static 'img/product-1.png' %}" class="img-fluid product-thumbnail">
-                    <h3 class="product-title">Nordic Chair</h3>
-                    <strong class="product-price">$50.00</strong>
-
-                    <span class="icon-cross">
-                        <img src="{% static 'img/cross.svg' %}" class="img-fluid">
-                    </span>
-                </a>
-            </div> 
-            <!-- End Column 2 -->
-
-            <!-- Start Column 3 -->
-            <div class="col-12 col-md-4 col-lg-3 mb-5">
-                <a class="product-item" href="#">
-                    <img src="{% static 'img/product-2.png' %}" class="img-fluid product-thumbnail">
-                    <h3 class="product-title">Kruzo Aero Chair</h3>
-                    <strong class="product-price">$78.00</strong>
-
-                    <span class="icon-cross">
-                        <img src="{% static 'img/cross.svg' %}" class="img-fluid">
-                    </span>
-                </a>
+                <div class="product-item">
+                    <img src="{{ product.image.url }}" class="img-fluid product-thumbnail" alt="{{ product.title }}">
+                    <div class="product-details">
+                        <h3 class="product-title">{{ product.title }}</h3>
+                        <strong class="product-price">
+                            KES {{ product.price|floatformat:2 }}
+                        </strong>
+                        <p class="product-description">{{ product.description }}</p>
+                        <div class="text-center">
+                            <a href="https://wa.me/254727639047?text=I%20want%20to%20buy%20this%20product" class="btn btn-custom-action" target="_blank">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- End Column 3 -->
-
-            <!-- Start Column 4 -->
-            <div class="col-12 col-md-4 col-lg-3 mb-5">
-                <a class="product-item" href="#">
-                    <img src="{% static 'img/product-3.png' %}" class="img-fluid product-thumbnail">
-                    <h3 class="product-title">Ergonomic Chair</h3>
-                    <strong class="product-price">$43.00</strong>
-
-                    <span class="icon-cross">
-                        <img src="{% static 'img/cross.svg' %}" class="img-fluid">
-                    </span>
-                </a>
-            </div>
-            <!-- End Column 4 -->
-
-
-            <!-- Start Column 1 -->
-            <div class="col-12 col-md-4 col-lg-3 mb-5">
-                <a class="product-item" href="#">
-                    <img src="{% static 'img/product-3.png' %}" class="img-fluid product-thumbnail">
-                    <h3 class="product-title">Nordic Chair</h3>
-                    <strong class="product-price">$50.00</strong>
-
-                    <span class="icon-cross">
-                        <img src="{% static 'img/cross.svg' %}" class="img-fluid">
-                    </span>
-                </a>
-            </div> 
-            <!-- End Column 1 -->
-                
-            <!-- Start Column 2 -->
-            <div class="col-12 col-md-4 col-lg-3 mb-5">
-                <a class="product-item" href="#">
-                    <img src="{% static 'img/product-1.png' %}" class="img-fluid product-thumbnail">
-                    <h3 class="product-title">Nordic Chair</h3>
-                    <strong class="product-price">$50.00</strong>
-
-                    <span class="icon-cross">
-                        <img src="{% static 'img/cross.svg' %}" class="img-fluid">
-                    </span>
-                </a>
-            </div> 
-            <!-- End Column 2 -->
-
-            <!-- Start Column 3 -->
-            <div class="col-12 col-md-4 col-lg-3 mb-5">
-                <a class="product-item" href="#">
-                    <img src="{% static 'img/product-2.png' %}" class="img-fluid product-thumbnail">
-                    <h3 class="product-title">Kruzo Aero Chair</h3>
-                    <strong class="product-price">$78.00</strong>
-
-                    <span class="icon-cross">
-                        <img src="{% static 'img/cross.svg' %}" class="img-fluid">
-                    </span>
-                </a>
-            </div>
-            <!-- End Column 3 -->
-
-            <!-- Start Column 4 -->
-            <div class="col-12 col-md-4 col-lg-3 mb-5">
-                <a class="product-item" href="#">
-                    <img src="{% static 'img/product-3.png' %}" class="img-fluid product-thumbnail">
-                    <h3 class="product-title">Ergonomic Chair</h3>
-                    <strong class="product-price">$43.00</strong>
-
-                    <span class="icon-cross">
-                        <img src="{% static 'img/cross.svg' %}" class="img-fluid">
-                    </span>
-                </a>
-            </div>
-            <!-- End Column 4 -->
-
+            {% endfor %}
         </div>
     </div>
 </div>
+
+
+
+
+
 
 <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
 <script src="{% static 'js/tiny-slider.js' %}"></script>
