@@ -3599,7 +3599,7 @@ hero-btn {
 /* line 131, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_h1-hero.scss */
 .dot-style .slick-active button {
   position: relative;
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-style: solid;
   padding-bottom: 5px;
 }
@@ -7143,7 +7143,7 @@ del {
 .genric-btn.link {
   color: #415094;
   background: #f9f9ff;
-  text-decoration: underline;
+  text-decoration: none;
   border: 1px solid transparent;
 }
 
@@ -7159,7 +7159,7 @@ del {
   color: #415094;
   border: 1px solid #f9f9ff;
   background: #fff;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* line 301, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_elements.scss */
