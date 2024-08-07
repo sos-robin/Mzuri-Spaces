@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-#^gx3cp(+kb)%k*c3$%6peig5y!x+%$*$wp6iu@b@#apoa+uni'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS =  ['.vercel.app',]
+ALLOWED_HOSTS =  ['.vercel.app', 'localhost', '127.0.0.1']
 
 USE_L10N = True
 
@@ -75,14 +75,18 @@ WSGI_APPLICATION = 'mzuri_spaces.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-import dj_database_url
-
-# Get the DATABASE_URL environment variable
-DATABASE_URL = os.getenv('DATABASE_URL')
-
-# Configure Django's DATABASES setting
 DATABASES = {
-    'default': dj_database_url.config(default=DATABASE_URL)
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'verceldb',
+        'USER': 'default',
+        'PASSWORD': '7V2bxHEeRUFo',
+        'HOST': 'ep-shiny-waterfall-a4qb3vvz.us-east-1.aws.neon.tech',
+        'PORT': '5432',
+        'OPTIONS': {
+        'sslmode': 'require',
+        },
+    }
 }
 
 #{
