@@ -22,8 +22,12 @@ class SupabaseStorage(Storage):
     def url(self, name):
         bucket = self.supabase.storage.from_("Mzuri_uploads")
         response = bucket.get_public_url(name)
-        # Ensure that the response is handled correctly
-        if 'publicURL' in response:
+        if isinstance(response, dict) and 'publicURL' in response:
             return response['publicURL']
-        else:
-            return response  # or handle the case where 'publicURL' is not in the response
+        return response
+
+    def exists(self, name):
+        bucket = self.supabase.storage.from_("Mzuri_uploads")
+        response = bucket.list(prefix=name)
+        # Check if any files with the given name exist
+        return len(response) > 0
