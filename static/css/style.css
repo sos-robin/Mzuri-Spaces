@@ -2509,7 +2509,7 @@ hero-btn {
   }
 }
 .testimonial-img {
-  width: 80px; /* Adjust size as needed */
+  width: 120px; /* Adjust size as needed */
   height: auto;
   margin-bottom: 15px; /* Adds space between image and text */
 }
@@ -2550,8 +2550,8 @@ hero-btn {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 60px; /* Adjust size as needed */
-  height: 60px; /* Adjust size as needed */
+  width: 120px; /* Adjust size as needed */
+  height: 120px; /* Adjust size as needed */
   transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
