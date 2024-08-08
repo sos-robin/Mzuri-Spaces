@@ -78,16 +78,14 @@ WSGI_APPLICATION = 'mzuri_spaces.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'verceldb',
-        'USER': 'default',
-        'PASSWORD': '7V2bxHEeRUFo',
-        'HOST': 'ep-shiny-waterfall-a4qb3vvz.us-east-1.aws.neon.tech',
-        'PORT': '5432',
-        'OPTIONS': {
-        'sslmode': 'require',
+        'NAME': 'postgres',
+        'USER': 'postgres.awyfrizifwpimengjboq',
+        'PASSWORD': '6PyoA8OwG9RvFcQu',
+        'HOST': 'aws-0-eu-central-1.pooler.supabase.com',
+        'PORT': '6543',
         },
     }
-}
+
 
 #{
  #   'default': {
