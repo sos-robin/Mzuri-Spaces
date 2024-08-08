@@ -4036,10 +4036,19 @@ hero-btn {
 }
 
 /* line 17, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_services_section.scss */
+/* Remove underline from the link in h3 */
+.services-area .single-services .services-caption h3 a {
+  color: #222222;
+  font-weight: 700;
+  font-size: 24px;
+  display: block;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Adjust spacing for h3 */
 .services-area .single-services .services-caption h3 {
-  margin-bottom: 15px;
-  line-height: 18px;
-  font-family: "Barlow", sans-serif;
+  margin-bottom: 20px; /* Increase space below the title as needed */
+  line-height: 1.2; /* Adjust line height if needed */
   position: relative;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
@@ -4048,13 +4057,6 @@ hero-btn {
   transition: all 0.4s ease-out 0s;
 }
 
-/* line 23, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_services_section.scss */
-.services-area .single-services .services-caption h3 a {
-  color: #222222;
-  font-weight: 700;
-  font-size: 24px;
-  display: block;
-}
 
 /* line 28, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_services_section.scss */
 .services-area .single-services .services-caption h3 a:hover {
