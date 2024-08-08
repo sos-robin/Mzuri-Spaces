@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import Buy_product
-# Create your views here.
+
 
 def home(request):
     
@@ -26,3 +26,4 @@ def Portfolio(request):
 def Product(request):
     products = Buy_product.objects.all()
     return render(request, 'Mzuri/shop.html', {'products': products})
+
