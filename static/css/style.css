@@ -2509,10 +2509,23 @@ hero-btn {
   }
 }
 .testimonial-img {
-  width: 70px; /* Adjust size as needed */
-  height: auto;
-  margin-bottom: 15px; /* Adds space between image and text */
-}#preloader-active {
+  width: 70px; /* Set width to 70px */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 15px; /* Space between image and text */
+}
+
+/* Optional: Adjust the size of the testimonial text container if needed */
+.testimonial-top-cap {
+  text-align: center; /* Center text and image */
+  margin-bottom: 20px; /* Space below the testimonial top content */
+}
+
+.testimonial-caption p {
+  font-size: 16px; /* Adjust font size as needed */
+  line-height: 1.5; /* Ensure readable line height */
+}
+
+#preloader-active {
   position: fixed;
   top: 0;
   left: 0;
