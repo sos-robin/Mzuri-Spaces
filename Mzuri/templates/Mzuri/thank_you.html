@@ -10,14 +10,14 @@
             <div class="col-lg-6 col-md-8">
                 <!-- Card for Thank You Message -->
                 <div class="card shadow-lg thank-you-card">
-                    <img src="{% static 'img/gallery/testi-logo.png' %}" alt=""  class="card-img-top" alt="Product Image">
+                    <img src="{% static 'img/service1.png' %}" class="card-img-top" alt="Product Image">
                     <div class="card-body text-center">
                         <h4 class="card-title">Thank You for Contacting Us</h4>
                         <p class="card-text">Your message has been successfully sent. We will get back to you as soon as possible!</p>
                     </div>
                     <div class="card-footer text-center">
-                        <a href="{% url 'contact' %}" class="btn btn-primary">Back to Contact Form</a>
-                        <a href="{% url 'home' %}" class="btn btn-secondary ml-2">Back to Home</a>
+                        <a href="{% url 'contact' %}" class="btn" style="display: inline-block; width: 45%; padding: 0.5rem 1rem; color: black; background-color: #939434; border: 1px solid #939434; border-radius: 5px; text-align: center; text-decoration: none; transition: background-color 0.3s ease, border-color 0.3s ease;" onmouseover="this.style.backgroundColor='#6d8a2f'; this.style.borderColor='#6d8a2f';" onmouseout="this.style.backgroundColor='#939434'; this.style.borderColor='#939434';">Back to Contact Form</a>
+                        <a href="{% url 'home' %}" class="btn" style="display: inline-block; width: 45%; padding: 0.5rem 1rem; color: black; background-color: #939434; border: 1px solid #939434; border-radius: 5px; text-align: center; text-decoration: none; transition: background-color 0.3s ease, border-color 0.3s ease; margin-left: 1rem;" onmouseover="this.style.backgroundColor='#6d8a2f'; this.style.borderColor='#6d8a2f';" onmouseout="this.style.backgroundColor='#939434'; this.style.borderColor='#939434';">Back to Home</a>
                     </div>
                 </div>
             </div>
@@ -50,8 +50,28 @@
     .card-body {
         background-color: #f8f9fa;
     }
-    .btn {
-        margin: 5px;
+    .card-footer {
+        padding: 1rem;
+    }
+    .btn-custom {
+        display: inline-block;
+        width: 45%;
+        padding: 0.5rem 1rem;
+        color: black;
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    }
+    .btn-custom:hover {
+        background-color: #939434;
+        color: #fff;
+        border-color: #939434;
+    }
+    .ml-3 {
+        margin-left: 1rem;
     }
     #back-top {
         position: fixed;
