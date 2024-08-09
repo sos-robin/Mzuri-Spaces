@@ -33,21 +33,15 @@ def Product(request):
     return render(request, 'Mzuri/shop.html', {'products': products})
 
 def Contact_view(request):
-    if request.method == 'POST':
+    if request.method == "POST":
         form = ContactForm(request.POST)
         if form.is_valid():
-            # Process the form data
-            name = form.cleaned_data['name']
-            email = form.cleaned_data['email']
-            subject = form.cleaned_data['subject']
-            message = form.cleaned_data['message']
-
-            # Example: print form data or save to the database
-            print(f"Name: {name}, Email: {email}, Subject: {subject}, Message: {message}")
-
-            messages.success(request, 'Your message has been sent successfully!')
-            return redirect('contact')  # Redirect to the same contact page or a thank you page
+            form.save() 
+            return redirect('thank_you')
     else:
         form = ContactForm()
 
     return render(request, 'Mzuri/contact.html', {'form': form})
+
+def Thank_you_view(request):
+    return render(request, 'Mzuri/thank_you.html')

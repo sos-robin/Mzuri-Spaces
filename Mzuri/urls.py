@@ -9,5 +9,6 @@ urlpatterns = [
     path('service/', Services, name = "services"),
     path('work/', Portfolio, name = "work"),
     path('products/', Product, name = "product"),
+    path('thank-you/',Thank_you_view, name='thank_you'),
 
 ]
