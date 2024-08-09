@@ -154,8 +154,3 @@ CLOUDINARY_STORAGE = {
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 # settings.py
-
-TWILIO_ACCOUNT_SID = 'ACc61e7dfdc1cbe84e6ec38fdeeed2bb81'
-TWILIO_AUTH_TOKEN = '8ef76170950769a497ea6b3575832b33'
-TWILIO_WHATSAPP_NUMBER = 'whatsapp:+14155238886'
-
