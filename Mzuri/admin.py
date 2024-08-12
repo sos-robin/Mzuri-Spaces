@@ -5,6 +5,7 @@ from .models import *
 
 admin.site.register(Buy_product)
 
+
 class ContactAdmin(admin.ModelAdmin):
     list_display = ('name', 'email', 'subject', 'created_at')
     list_filter = ('created_at',)
@@ -12,3 +13,4 @@ class ContactAdmin(admin.ModelAdmin):
     ordering = ('-created_at',)
 
 admin.site.register(Contact, ContactAdmin)
+

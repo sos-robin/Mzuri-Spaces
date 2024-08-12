@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Buy_product
+from .models import *
 
 from django.shortcuts import render, redirect
 from .forms import ContactForm
@@ -45,3 +45,4 @@ def Contact_view(request):
 
 def Thank_you_view(request):
     return render(request, 'Mzuri/thank_you.html')
+
