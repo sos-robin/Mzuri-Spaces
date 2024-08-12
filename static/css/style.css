@@ -4813,7 +4813,7 @@ hero-btn {
 
 /* line 128, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_footer.scss */
 .footer-area .footer-social span {
-  color: #fff;
+  
   position: relative;
   margin-right: 57px;
 }
@@ -4824,7 +4824,7 @@ hero-btn {
   content: "";
   width: 43px;
   height: 2px;
-  background: #3b3647;
+  
   top: 50%;
   transform: translateY(-50%);
   right: -56px;
@@ -4856,7 +4856,7 @@ hero-btn {
 
 /* line 157, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_footer.scss */
 .footer-area .footer-social a {
-  color: #bdbdbd;
+  
   font-size: 14px;
   text-align: center;
   margin-left: 16px;
