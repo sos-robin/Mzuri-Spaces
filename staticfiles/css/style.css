@@ -2509,10 +2509,22 @@ hero-btn {
   }
 }
 .testimonial-img {
-  width: 80px; /* Adjust size as needed */
-  height: auto;
-  margin-bottom: 15px; /* Adds space between image and text */
+  width: 70px; /* Set width to 70px */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 15px; /* Space between image and text */
 }
+
+/* Optional: Adjust the size of the testimonial text container if needed */
+.testimonial-top-cap {
+  text-align: center; /* Center text and image */
+  margin-bottom: 20px; /* Space below the testimonial top content */
+}
+
+.testimonial-caption p {
+  font-size: 16px; /* Adjust font size as needed */
+  line-height: 1.5; /* Ensure readable line height */
+}
+
 #preloader-active {
   position: fixed;
   top: 0;
@@ -2548,11 +2560,10 @@ hero-btn {
 
 .preloader-img {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 60px; /* Adjust size as needed */
-  height: 60px; /* Adjust size as needed */
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2561,7 +2572,7 @@ hero-btn {
 .preloader-img img {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Ensures the image is fully visible */
+  object-fit: cover; /* Ensures the image covers the entire circle */
   border-radius: 50%; /* Ensures the image fits within the circle */
 }
 
@@ -2569,6 +2580,7 @@ hero-btn {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
 
 /* 20. preloader */
 /* line 599, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_common.scss */
@@ -4037,10 +4049,19 @@ hero-btn {
 }
 
 /* line 17, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_services_section.scss */
+/* Remove underline from the link in h3 */
+.services-area .single-services .services-caption h3 a {
+  color: #222222;
+  font-weight: 700;
+  font-size: 24px;
+  display: block;
+  text-decoration: none; /* Remove underline */
+}
+
+/* Adjust spacing for h3 */
 .services-area .single-services .services-caption h3 {
-  margin-bottom: 15px;
-  line-height: 18px;
-  font-family: "Barlow", sans-serif;
+  margin-bottom: 20px; /* Increase space below the title as needed */
+  line-height: 1.2; /* Adjust line height if needed */
   position: relative;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
@@ -4049,13 +4070,6 @@ hero-btn {
   transition: all 0.4s ease-out 0s;
 }
 
-/* line 23, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_services_section.scss */
-.services-area .single-services .services-caption h3 a {
-  color: #222222;
-  font-weight: 700;
-  font-size: 24px;
-  display: block;
-}
 
 /* line 28, ../../../sponDon TI/Running Project/263.InteriorDesign_HTML/HTML/static/scss/_services_section.scss */
 .services-area .single-services .services-caption h3 a:hover {
