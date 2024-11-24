@@ -3,7 +3,8 @@ from django.contrib import admin
 
 from .models import *
 
-admin.site.register(Buy_product)
+admin.site.register(BuyProduct)
+admin.site.register(ProductImage)
 
 
 class ContactAdmin(admin.ModelAdmin):

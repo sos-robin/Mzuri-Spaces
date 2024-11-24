@@ -29,7 +29,9 @@ def Portfolio(request):
     return render(request,'Mzuri/work.html')
 
 def Product(request):
-    products = Buy_product.objects.all()
+    # Fetch all products and their related images
+    products = BuyProduct.objects.prefetch_related('images').all()
+
     return render(request, 'Mzuri/shop.html', {'products': products})
 
 def Contact_view(request):
