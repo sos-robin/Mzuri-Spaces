@@ -4,6 +4,8 @@ from .models import *
 from django.shortcuts import render, redirect
 from .forms import ContactForm
 from django.contrib import messages
+from django.shortcuts import render, get_object_or_404
+
 
 
 
@@ -16,7 +18,7 @@ def About(request):
     return render(request,'Mzuri/about.html')
 
 
-#def Contact(request):
+def Contact(request):
     
     return render(request,'Mzuri/contact.html')
 
@@ -25,8 +27,20 @@ def Services(request):
     return render(request,'Mzuri/services.html')
 
 def Portfolio(request):
+    # Fetch all portfolios
+    portfolios = PortfolioSection.objects.all()
     
-    return render(request,'Mzuri/work.html')
+    # Pass the portfolios to the template
+    return render(request, 'Mzuri/work.html', {'portfolios': portfolios})
+
+def PortfolioPage(request, portfolio_id):
+    # Retrieve the PortfolioSection object using portfolio_id
+    portfolio = get_object_or_404(PortfolioSection, id=portfolio_id)
+    
+    # Retrieve all pictures related to the portfolio
+    pictures = portfolio.company_pictures.all()
+
+    return render(request, 'Mzuri/portfoliopage.html', {'portfolio': portfolio, 'pictures': pictures})
 
 def Product(request):
     # Fetch all products and their related images
