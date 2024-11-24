@@ -5,6 +5,9 @@ from .models import *
 
 admin.site.register(BuyProduct)
 admin.site.register(ProductImage)
+admin.site.register(PortfolioSection)
+admin.site.register(CompanyPagePicture)
+
 
 
 class ContactAdmin(admin.ModelAdmin):
@@ -14,4 +17,3 @@ class ContactAdmin(admin.ModelAdmin):
     ordering = ('-created_at',)
 
 admin.site.register(Contact, ContactAdmin)
-
