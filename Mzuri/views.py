@@ -5,6 +5,8 @@ from django.shortcuts import render, redirect
 from .forms import ContactForm
 from django.contrib import messages
 from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render
+from .models import BlogPost, BlogCategory
 
 
 
@@ -61,3 +63,31 @@ def Contact_view(request):
 
 def Thank_you_view(request):
     return render(request, 'Mzuri/thank_you.html')
+
+
+
+
+def Blog(request):
+    selected_category = request.GET.get('category')
+    
+    if selected_category:
+        blogs = BlogPost.objects.filter(category__slug=selected_category)
+    else:
+        blogs = BlogPost.objects.all()
+    
+    categories = BlogCategory.objects.all()  # Assuming you have a Category model
+
+    context = {
+        'blogs': blogs,
+        'categories': categories,
+        'selected_category': selected_category
+    }
+
+    return render(request, 'Mzuri/blog.html', context)
+
+def BlogPage(request, slug):
+    # Retrieve the BlogPost object using slug
+    blog = get_object_or_404(BlogPost, slug=slug)
+    
+    # Pass the blog to the template
+    return render(request, 'Mzuri/blogpage.html', {'blog': blog})

@@ -17,3 +17,17 @@ class ContactAdmin(admin.ModelAdmin):
     ordering = ('-created_at',)
 
 admin.site.register(Contact, ContactAdmin)
+
+class BlogPostAdmin(admin.ModelAdmin):
+    list_display = ('title', 'slug', 'created_at', 'updated_at')
+    prepopulated_fields = {'slug': ('title',)}
+    search_fields = ('title', 'content')
+    ordering = ('-created_at',)
+admin.site.register(BlogPost, BlogPostAdmin)
+
+class BlogCategoryAdmin(admin.ModelAdmin):
+    list_display = ('name', 'slug')
+    prepopulated_fields = {'slug': ('name',)}
+    search_fields = ('name',)
+    ordering = ('name',)
+admin.site.register(BlogCategory, BlogCategoryAdmin)

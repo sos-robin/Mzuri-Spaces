@@ -1,4 +1,5 @@
 from django.db import models
+from tinymce.models import HTMLField
 
 class BuyProduct(models.Model):
     title = models.CharField(max_length=70)
@@ -41,3 +42,23 @@ class CompanyPagePicture(models.Model):
 
     def __str__(self):
         return f'Image for {self.portfolio.company_name}'
+    
+class BlogCategory(models.Model):
+    name = models.CharField(max_length=100, unique=True)
+    slug = models.SlugField(max_length=120, unique=True)
+
+    def __str__(self):
+        return self.name
+
+class BlogPost(models.Model):
+    title = models.CharField(max_length=200)
+    slug = models.SlugField(max_length=220, unique=True)
+    content = HTMLField()
+    image = models.ImageField(upload_to='blog_images/', blank=True, null=True)
+    category = models.ForeignKey(BlogCategory, on_delete=models.SET_NULL, null=True, related_name='posts')
+    featured = models.BooleanField(default=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.title
