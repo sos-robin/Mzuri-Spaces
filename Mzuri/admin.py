@@ -1,4 +1,7 @@
 from django.contrib import admin
+from django import forms
+from tinymce.widgets import TinyMCE
+
 
 
 from .models import *
@@ -22,6 +25,9 @@ class BlogPostAdmin(admin.ModelAdmin):
     list_display = ('title', 'slug', 'created_at', 'updated_at')
     prepopulated_fields = {'slug': ('title',)}
     search_fields = ('title', 'content')
+    formfield_overrides = {
+        models.TextField: {'widget': TinyMCE(attrs={'cols': 80, 'rows': 20})},
+    }
     ordering = ('-created_at',)
 admin.site.register(BlogPost, BlogPostAdmin)
 
