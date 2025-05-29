@@ -1,6 +1,7 @@
 from django.db import models
 from tinymce.models import HTMLField
 
+
 class BuyProduct(models.Model):
     title = models.CharField(max_length=70)
     price = models.DecimalField(max_digits=10, decimal_places=2)
