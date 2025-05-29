@@ -8,7 +8,9 @@ urlpatterns = [
     path('contact/', Contact_view, name = "contact"),
     path('service/', Services, name = "services"),
     path('work/', Portfolio, name = "work"),
-    path('portfolio/<slug:slug>/', PortfolioPage, name = "portfolio_page"),
+    path('portfolio/<int:portfolio_id>/', PortfolioPage, name = "portfolio_page"),
+
+
     path('products/', Product, name = "product"),
     path('blog/', Blog, name = "blog"),
     path('blog/<slug:slug>/', BlogPage, name = "blog_detail"),
