@@ -39,5 +39,7 @@ tzdata==2024.1
 urllib3==2.2.2
 websockets==12.0
 django-tinymce==4.1.0
+django-ckeditor
+
 
 

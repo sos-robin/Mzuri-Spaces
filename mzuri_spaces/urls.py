@@ -7,6 +7,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('Mzuri.urls')),
     path('tinymce/', include('tinymce.urls')),
+    path('ckeditor/', include('ckeditor_uploader.urls')),  # For upload support
+
 
 ]+  static(settings.MEDIA_URL,document_root =settings.MEDIA_ROOT)
  

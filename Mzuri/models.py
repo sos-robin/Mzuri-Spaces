@@ -1,5 +1,6 @@
 from django.db import models
 from tinymce.models import HTMLField
+from ckeditor.fields import RichTextField
 
 
 class BuyProduct(models.Model):
@@ -54,7 +55,7 @@ class BlogCategory(models.Model):
 class BlogPost(models.Model):
     title = models.CharField(max_length=200)
     slug = models.SlugField(max_length=220, unique=True)
-    content = HTMLField()
+    content = RichTextField()
     image = models.ImageField(upload_to='blog_images/', blank=True, null=True)
     category = models.ForeignKey(BlogCategory, on_delete=models.SET_NULL, null=True, related_name='posts')
     featured = models.BooleanField(default=False)
