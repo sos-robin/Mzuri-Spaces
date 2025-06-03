@@ -1,7 +1,10 @@
 from django.contrib import admin
 from django import forms
 from tinymce.widgets import TinyMCE
-
+from django.contrib import admin
+from django.db import models
+from ckeditor_uploader.widgets import CKEditorUploadingWidget
+from .models import BlogPost
 
 
 
@@ -22,14 +25,20 @@ class ContactAdmin(admin.ModelAdmin):
 
 admin.site.register(Contact, ContactAdmin)
 
+
+
 class BlogPostAdmin(admin.ModelAdmin):
     list_display = ('title', 'slug', 'created_at', 'updated_at')
     prepopulated_fields = {'slug': ('title',)}
+    
     formfield_overrides = {
-        models.TextField: {'widget': TinyMCE(attrs={'cols': 80, 'rows': 20})},
+        models.TextField: {'widget': CKEditorUploadingWidget()},
     }
+    
     ordering = ('-created_at',)
+
 admin.site.register(BlogPost, BlogPostAdmin)
+
 
 class BlogCategoryAdmin(admin.ModelAdmin):
     list_display = ('name', 'slug')
