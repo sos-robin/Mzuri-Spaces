@@ -6,22 +6,18 @@
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
     {
-      "src": "static/**/*",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "media/**/*",
+      "src": "staticfiles/**/*",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/static/(.*)",
-      "dest": "/static/$1"
+      "dest": "/staticfiles/$1"
     },
     {
-      "src": "/media/(.*)",
-      "dest": "/media/$1"
+      "src": "/img/(.*)",
+      "dest": "/staticfiles/img/$1"
     },
     {
       "src": "/(.*)",
