@@ -147,9 +147,8 @@ CKEDITOR_CONFIGS = {
     },
 }
 
-MEDIA_URL = '/media/'  # CKEditor and other media files
-
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # A separate folder outside /static
+MEDIA_URL = 'img/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'static/img')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
