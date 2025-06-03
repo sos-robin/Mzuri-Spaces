@@ -5,12 +5,14 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('Mzuri.urls')),
+    path('', include('Mzuri.urls')),
     path('tinymce/', include('tinymce.urls')),
-    path('ckeditor/', include('ckeditor_uploader.urls')),  # For upload support
+    path('ckeditor/', include('ckeditor_uploader.urls')),  # Enables file upload from CKEditor
+]
 
+# Serve media files (uploads) always — CKEditor relies on this
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-]+  static(settings.MEDIA_URL,document_root =settings.MEDIA_ROOT)
- 
+# Serve static files only during development
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
